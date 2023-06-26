@@ -28,7 +28,7 @@ def input_int(prompt, desc):
         return val
     except ValueError:
         print(f'ERROR: The {desc} should be an integer.')
-        exit(8)
+        exit(7)
 
 def input_and_split():
     # Get and verify password

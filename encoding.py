@@ -1,7 +1,7 @@
 # Based on https://stackoverflow.com/a/1119769/5524100
 
 SHARE_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-PASSWORD_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+PASSWORD_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_{|}~"
 
 def encode(num, alphabet):
     """Encode a positive number into Base X and return the string.
